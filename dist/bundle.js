@@ -29813,6 +29813,33 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./src/components/app.tsx":
+/*!********************************!*\
+  !*** ./src/components/app.tsx ***!
+  \********************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+function App() {
+    return (react_1.default.createElement("div", { style: rootStyle },
+        react_1.default.createElement("h1", null, "Hello from React and Typescript!")));
+}
+const rootStyle = {
+    height: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+};
+exports["default"] = App;
+
+
+/***/ }),
+
 /***/ "./src/index.tsx":
 /*!***********************!*\
   !*** ./src/index.tsx ***!
@@ -29826,9 +29853,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 const react_dom_1 = __importDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
-react_dom_1.default.render(
-// <App />
-react_1.default.createElement("div", null, " Hello world!"), document.getElementById('root'));
+const app_1 = __importDefault(__webpack_require__(/*! ./components/app */ "./src/components/app.tsx"));
+react_dom_1.default.render(react_1.default.createElement(app_1.default, null), document.getElementById('root'));
 
 
 /***/ })
