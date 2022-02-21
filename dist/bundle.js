@@ -29830,10 +29830,10 @@ function App() {
         react_1.default.createElement("h1", null, "Hello from React and Typescript!")));
 }
 const rootStyle = {
-    height: '100%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
+    height: "100%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
 };
 exports["default"] = App;
 
@@ -29854,7 +29854,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 const react_dom_1 = __importDefault(__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js"));
 const app_1 = __importDefault(__webpack_require__(/*! ./components/app */ "./src/components/app.tsx"));
-react_dom_1.default.render(react_1.default.createElement(app_1.default, null), document.getElementById('root'));
+react_dom_1.default.render(react_1.default.createElement(app_1.default, null), document.getElementById("root"));
 
 
 /***/ })

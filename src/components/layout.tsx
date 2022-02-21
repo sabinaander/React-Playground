@@ -1,20 +1,19 @@
 import React, { CSSProperties } from "react";
-import Layout from "./layout";
+import Header from "./header";
+import Main from "./main";
 
-function App() {
+function Layout() {
   return (
-     
-
     <div style={rootStyle}>
-      <h1>Hello from React and Typescript!</h1>
+      <Header/>
+      <Main/>
     </div>
   );
 }
 const rootStyle: CSSProperties = {
   height: "100%",
   display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
+  flexDirection: "column",
 };
 
-export default App;
+export default Layout;
