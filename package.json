@@ -1,0 +1,35 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabinaander/react-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabinaander/react-playground/issues"
+  },
+  "homepage": "https://github.com/sabinaander/react-playground#readme",
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "source-map-loader": "^3.0.1",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@webpack-cli/generators": "^2.4.2",
+    "ts-loader": "^9.2.6",
+    "webpack-cli": "^4.9.2"
+  }
+}
